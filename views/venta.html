@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Venta</title>
+  </head>
+  <body>
+    <form action="/submitVenta" method="post">
+      <label for="fechaVenta">Fecha Venta:</label>
+      <input type="date" id="fechaVenta" name="fechaVenta" required /><br />
+
+      <label for="descripcionVenta">Descripción Venta:</label>
+      <input
+        type="text"
+        id="descripcionVenta"
+        name="descripcionVenta"
+        required
+      /><br />
+
+      <label for="totalVenta">Total Venta:</label>
+      <input type="number" id="totalVenta" name="totalVenta" required /><br />
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
